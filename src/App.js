@@ -1,14 +1,13 @@
-import React, {useEffect, useRef} from 'react';
-import Body from "./body.js"
+import React, {useEffect} from 'react';
 import "./styles.scss"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import nobscooking from "./images/nobscookinghighres.gif"
 import rockthevote from "./images/rockthevotehighres.gif"
 import opvet from "./images/opvetpayment.gif"
-import { useWindupString, WindupChildren, CharWrapper, Effect, Pause, Pace } from "windups";
+import { WindupChildren, Pause, Pace } from "windups";
 import Contactform from "./Contactform.js"
-import { FaBeer, FaGithub } from 'react-icons/fa';
+
 
 
 function App() {
